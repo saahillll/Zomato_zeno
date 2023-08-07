@@ -1,0 +1,79 @@
+body{
+    margin:0px;
+    padding: 0px;
+    font-family: 'Martel Sans', sans-serif;
+    background-image: url(./zomato.avif) ;
+    background-repeat: no-repeat;
+    height:80vh;
+}
+nav{
+    display: flex;
+    justify-content: end; 
+    padding-right: 200px;
+    position: sticky;
+}
+nav ul{
+    display: flex;
+    gap:30px;
+}
+nav ul li{
+    list-style-type: none;
+}
+nav ul li a{
+    text-decoration: none;
+    color:white;
+    font-size: 20px;
+}
+#body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding-top: 200px;
+}
+#body img{
+    height: 61px;
+    width: 255px;
+    padding: 0px;
+}
+#body h1{
+    color:white;
+    font-weight: 500;
+    font-size: 35px;
+}
+#mid {
+    margin-top: 230px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    padding:0px 18%;
+}
+#mid h1 img{
+    height:40px;
+    width: 70px;
+}
+#mid h1{
+    margin: 0px;
+    font-weight: 200;
+}
+#mid p{
+    color:rgb(105, 105, 105);
+    font-size: 19px;
+}
+#tabs{
+    display: flex;
+    justify-content: center;
+    gap:20px;
+    padding: 0px 10%;
+}
+.tab{
+    padding: 20px 24px;
+    border:1px solid rgb(232, 232, 232);
+    color:rgb(28, 28, 28);
+    border-radius: 8px;
+    width: 50%;
+    font-size: 20px;
+    display: flex;
+    justify-content: space-between;
+}
